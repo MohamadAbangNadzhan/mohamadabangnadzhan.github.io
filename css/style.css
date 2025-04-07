@@ -1,0 +1,40 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+}
+
+header {
+    background-color: antiquewhite;
+}
+
+nav {
+    background-color:goldenrod;
+}
+
+main {
+    background-color: aliceblue;
+    font-size: 100%;
+}
+
+footer {
+
+    background-color:limegreen;
+}
+
+li {
+    display: inline;
+    width: 150%;
+}
+
+h1 {
+    text-align:center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:darkblue;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
