@@ -1,0 +1,44 @@
+body {
+    background-color: #dedede;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
+
+/* .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+} */
+
+p {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+p {
+    text-align: left;
+}
+
+div {
+    display:inline-block
+}
+
+main {
+    /* display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center; */
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
