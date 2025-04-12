@@ -1,0 +1,103 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+}
+
+header {
+    background-color:goldenrod;
+}
+
+nav {
+    background-color:goldenrod;
+    display: inline-block;
+    width: 80%;
+}
+
+header img {
+    width: 10%;
+    position: relative;
+    top: 20px;
+}
+
+main {
+    background-color: aliceblue;
+    font-size: 100%;
+}
+
+footer {
+
+    background-color:limegreen;
+}
+
+/* li {
+    display: inline;
+    width: 150%;
+} */
+
+h1 {
+    text-align:center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:darkblue;
+}
+
+p {
+    line-height:normal;
+}
+
+/* div img {
+    width: 100%;
+} */
+
+/* .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+} */
+
+/* main {
+    min-height: 100px;
+} */
+
+/* nav a {
+    text-decoration: none;
+} */
+
+/* li {
+    background-color: yellow;
+} */
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content:space-around;
+}
+
+/* .current {
+    text-transform: uppercase;
+    background-color:springgreen;
+}
+
+.new {
+    background-color: blue;
+} */
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content:space-around;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.grid img {
+    width: 100%;
+}
+
+.flex {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-evenly;
+    column-gap: 2px;
+}
