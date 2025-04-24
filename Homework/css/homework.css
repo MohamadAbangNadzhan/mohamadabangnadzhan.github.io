@@ -1,0 +1,28 @@
+body {
+    margin: 2%;
+    border: 10px solid steelblue;
+    background-color: gainsboro;
+}
+
+#message {
+    line-height: 100px;
+    text-align: center;
+    width: 550px;
+    height: 100px;
+    border: 7px solid indigo;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-color: mediumvioletred;
+    font-size: 100%;
+    color:yellow;
+}
+
+.preview {
+    width: 10%;
+    margin-left: 17%;
+    border: 5px solid crimson;
+}
+
+img {
+    width: 90%;
+}
